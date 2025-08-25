@@ -18,6 +18,10 @@ import Lists from './listsandrefs/Lists';
 import UseState from './reacthooks/UseState';
 import UseEffect from './reacthooks/UseEffect';
 import CouterApp  from './redux-react/CouterApp'
+import Portal from './react-portals/Portal';
+import DatePickerWrapper from './datepicker/DatePicker';
+import UnitTest from './unittesting/UnitTest';
+import Pagination from './pagination/Pagination';
 
 function App() {
   return (
@@ -41,6 +45,11 @@ function App() {
         <Route path="/usestate" element={<UseState/>} />
         <Route path="/useEffect" element={<UseEffect/>} />
         <Route path="/redux" element={<CouterApp/>} />
+        <Route path="/portal" element={<Portal/>} />
+        <Route path="/datepicker" element={<DatePickerWrapper/>} />
+        <Route path="/unittest" element={<UnitTest/>} />
+        <Route path="/pagination" element={<Pagination/>} />
+        
         </Routes>
     </Router>
   );

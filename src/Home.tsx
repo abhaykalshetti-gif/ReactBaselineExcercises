@@ -6,7 +6,6 @@ export default function Home() {
     <div className="p-8 bg-gray-100 min-h-screen text-gray-800">
       <h1 className="text-4xl font-bold mb-8 text-center">React Baseline Courses</h1>
 
-      {/* Components Section */}
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Components</h2>
         <ol className="list-decimal list-inside space-y-1">
@@ -15,7 +14,6 @@ export default function Home() {
         </ol>
       </div>
 
-      {/* Props and State */}
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">React Props and State</h2>
         <ol className="list-decimal list-inside space-y-1">
@@ -23,7 +21,6 @@ export default function Home() {
         </ol>
       </div>
 
-      {/* Constructors and Lifecycle */}
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Constructors and Lifecycle</h2>
         <ol className="list-decimal list-inside space-y-1">
@@ -32,7 +29,6 @@ export default function Home() {
         </ol>
       </div>
 
-      {/* Forms */}
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">React Forms</h2>
         <ol className="list-decimal list-inside space-y-1">
@@ -41,7 +37,6 @@ export default function Home() {
         </ol>
       </div>
 
-      {/* Events */}
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Events and Handling</h2>
         <ol className="list-decimal list-inside space-y-1">
@@ -49,7 +44,6 @@ export default function Home() {
         </ol>
       </div>
 
-      {/* Conditional Statements */}
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">React Conditional Statements</h2>
         <ol className="list-decimal list-inside space-y-1">
@@ -60,7 +54,6 @@ export default function Home() {
         </ol>
       </div>
 
-      {/* Lists and Refs */}
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">Lists and Refs</h2>
         <ol className="list-decimal list-inside space-y-1">
@@ -69,7 +62,6 @@ export default function Home() {
         </ol>
       </div>
 
-      {/* React Hooks */}
       <div className="mb-6">
         <h2 className="text-2xl font-semibold mb-2">React Hooks</h2>
         <ol className="list-decimal list-inside space-y-1">
@@ -84,6 +76,33 @@ export default function Home() {
           <li><Link to="redux" className="text-blue-600 hover:underline">Redux implementation</Link></li>
         </ol>
       </div>
+      <div className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">React Portals</h2>
+        <ol className="list-decimal list-inside space-y-1">
+          <li><Link to="portal" className="text-blue-600 hover:underline">Portal implementation</Link></li>
+        </ol>
+      </div>
+
+       <div className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">React DatePicker</h2>
+        <ol className="list-decimal list-inside space-y-1">
+          <li><Link to="datepicker" className="text-blue-600 hover:underline">DatePicker implementation</Link></li>
+        </ol>
+        </div>
+    
+       <div className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">Unit Testing</h2>
+        <ol className="list-decimal list-inside space-y-1">
+          <li><Link to="unittest" className="text-blue-600 hover:underline">Unit testing implementation</Link></li>
+        </ol>
+        </div> 
+
+        <div className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">Pagination</h2>
+        <ol className="list-decimal list-inside space-y-1">
+          <li><Link to="pagination" className="text-blue-600 hover:underline">Pagination implementation</Link></li>
+        </ol>
+        </div>   
     </div>
   );
 }

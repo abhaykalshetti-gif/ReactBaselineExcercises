@@ -5,7 +5,6 @@ const UseEffect: React.FC = () => {
 
   useEffect(() => {
     console.log(`Count changed to: ${count}`);
-
     return () => {
       console.log(`Cleaning up... Last count was: ${count}`);
     };
@@ -14,6 +13,7 @@ const UseEffect: React.FC = () => {
   return (
     <div className="max-w-sm mx-auto mt-10 p-6 bg-white rounded shadow-md text-center">
       <h2 className="text-3xl font-bold mb-6">Counter: {count}</h2>
+      <h2>Check in console after every updation of counter the the page relodes</h2>
       <div className="flex justify-center space-x-4">
         <button
           onClick={() => setCount((prev) => prev + 1)}
